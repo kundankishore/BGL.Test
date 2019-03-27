@@ -1,0 +1,9 @@
+C:\Users\kkishore\Downloads\BGL.Test\BGL.Test.DataContract\bin\Debug\BGL.Test.DataContract.dll
+C:\Users\kkishore\Downloads\BGL.Test\BGL.Test.DataContract\bin\Debug\BGL.Test.DataContract.pdb
+C:\Users\kkishore\Downloads\BGL.Test\BGL.Test.DataContract\obj\Debug\BGL.Test.DataContract.dll
+C:\Users\kkishore\Downloads\BGL.Test\BGL.Test.DataContract\obj\Debug\BGL.Test.DataContract.pdb
+C:\BGL.Test\BGL.Test.DataContract\bin\Debug\BGL.Test.DataContract.dll
+C:\BGL.Test\BGL.Test.DataContract\bin\Debug\BGL.Test.DataContract.pdb
+C:\BGL.Test\BGL.Test.DataContract\obj\Debug\BGL.Test.DataContract.csproj.CoreCompileInputs.cache
+C:\BGL.Test\BGL.Test.DataContract\obj\Debug\BGL.Test.DataContract.dll
+C:\BGL.Test\BGL.Test.DataContract\obj\Debug\BGL.Test.DataContract.pdb

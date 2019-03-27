@@ -1,0 +1,22 @@
+﻿@model BGL.Test.Portal.Models.SearchModel
+<div class="row">
+    <br/>
+    <img src="@Model.UserViewModel.Avatar"/>
+    <br/>
+    UserName: @Html.Label(Model.UserViewModel.UserName)
+    <br/>
+    Location: @Html.Label(Model.UserViewModel.Location)
+    <br/>
+    <br/>
+
+    Top 5 Repository List
+    <br/>
+
+    @foreach (var repos in Model.UserViewModel.Repository)
+    {
+        <ul>
+            <li>@repos</li>
+
+        </ul>
+    }
+</div>

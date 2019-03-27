@@ -1,0 +1,24 @@
+﻿@model BGL.Test.Portal.Models.SearchModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>BGL TEST</h2>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Search</h2>
+        <p>
+            Please fill in below details to search user on git
+        </p>
+        <p>
+        @Html.Partial("SearchForm")
+
+        @if (Model != null && Model.UserViewModel != null)
+        {
+            @Html.Partial("UserDetails")
+        }
+    </div>
+</div>
