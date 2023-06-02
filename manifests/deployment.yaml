@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kundan
+  labels:
+    app: kundan
+  namespace: namespace-workflow-1685718103202
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kundan
+  template:
+    metadata:
+      labels:
+        app: kundan
+    spec:
+      containers:
+        - name: kundan
+          image: acrworkflow1685718103202.azurecr.io/image-workflow-1685718103202:latest
+          ports:
+            - containerPort: 5000
