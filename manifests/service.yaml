@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: kundan
+  namespace: namespace-workflow-1685718103202
+spec:
+  type: LoadBalancer
+  selector:
+    app: kundan
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
